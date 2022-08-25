@@ -27,7 +27,7 @@ public:
 //Клас квадратні рівняння
 class EqQuad : public Equation
 {
-	double c, d, x2;
+	double c{}, d{}, x2{};
 
 public:
 	EqQuad() {}
